@@ -1,1 +1,45 @@
+1. The website through which we are obtaining our Police Violence data is ‘Fatal Encounters’, and so the first step was downloading the data. 
+2. The dataset is divided into 26 columns with each case of police brutality given an unique ID number. We removed the unique ID number as this correlated to cases when all 52 states were included
+3. To clean the data, we first duplicated the page and organised the sheet by state so that we could remove the cases not in our jurisdiction 
+4. Given our focus is on police brutality regarding race, we then organised by race so we could isolate the cases that were against african american/black people 
+    1. Some of the victim’s races were unknown and had been clarified with imputations - we kept those who were categorised as African American/black through imputations and removed the rest of the figures. This can cause further limitations to our data and were often cases that were 
+5. We deleted the more specific aspects of location but kept the state and county to see if there were any specifc locations within and between states that evidenced more cases
+    1. We followed a similar logic with the agency involved 
+6. We also deleted columns relating to the nature of the incident, related media coverage, and the disposition of the officers involved 
+7. Age and Gender were then removed 
+8. Any cases outside of our time period were also removed
+9. We also removed the relationship of cases with mental health 
+
+1. To create the sheet to analyse and compare our data sets, we then made a summary of the number of cases per state in the time period (overall and per year) 
+2. Next to each column, we then took the population of each state per year to ensure that we were making relative comparisons - these were taken from the US census 
+    1. We compared with total population and African American/black demographics  
+    2. Using the census’ CPS tool (https://www.census.gov/cps/data/cpstablecreator.html), we refined the US population by state and demographic for each year and transferred this over to our sheet 
+3. We had split the responsibility of each data set between people, so after making an additional category by each year for hate crime statistics, the two people working on cleaning the data sets came together and combined their findings 
+
+
+Limitations: 
+- public reports of cases of police brutality against civilians are notoriously under reported, especially with relation to race related incidents, therefore, most cases have been recorded from news articles 
+
+After encountering a range of issues with our hate crime data, we, unfortunately, had to change the direction of our project. As previously explained, we made a summary of all the cases of police brutality against specifically African American/Black people in our chosen states in each year. With the hate crime data, it was impossible to reliably combine the data sets they had together to find the number of cases against African American/black people in each state each year. Instead, we were only able to obtain data that showed hate crimes towards back/african American people on a national level (all states) or the total race related crimes for each state. Inconsistencies in reporting and agencies involvement each year also caused further limitations with this. 
+
+Given our hate crime data set was unusable, we decided instead to focus on whether there were any trends between levels of police funding per capita in each state and the levels of police brutality as we were able to find a useful data set from the Tax Policy Center. The tax policy centre is run by the Urban Institute & Brookings Institutions and they had completed data collection in 2020 for ‘state and local general expenditures 2014-2017’. Due to the new direction and data sets, we have changed our investigation to looking into all 52 states to try and account for some more of the variables involved in our areas like crime rates, population density, political ideologies etc. In addition, we needed to take our time range back by a year in order to have data from both sets.
+
+To clean the data, we first downloaded the data sets and made templates for the two sheets we would be using to clean it - one for police brutality and one for state expenditure 
+
+1. First step was downloading the data (for both data sets as we needed to re clean it)
+2. To clean the data, we first duplicated the page and organised the sheet by data so that we could remove the cases not in our time period  
+    1. Alaska and Hawaii were not counted in our funding data set and so we omitted these states in our police brutality data too
+3. The dataset is divided into 26 columns with each case of police brutality given an unique ID number. We removed the unique ID number as this correlated to the order in which the cases were collected
+4. Given our focus is on police brutality regarding race, we then organised by race so we could isolate the cases that were against african american/black people 
+    1. Some of the victim’s races were unknown and had been clarified with imputations - we kept those who were categorised as African American/black through imputations and removed the rest of the figures. This can cause further limitations to our data and were often cases that were 
+5. We deleted the more specific aspects of location but kept the state and county to see if there were any specifc locations within and between states that evidenced more cases
+    1. We followed a similar logic with the agency involved 
+6. We also deleted columns relating to the nature of the incident, related media coverage, and the disposition of the officers involved 
+7. Age and Gender were then removed 
+8. Any cases outside of our time period were also removed
+9. We also removed the relationship of cases with mental health 
+10. We then counted each state and the number of cases in each year of our period to put on a separate sheet ready for analysis
+    1. We also totalled the cases in the US each year
+
+For state funding, the data was in sheets based on each year from 2017 to 2000. On each sheet, figures were categorised by direct and interstate funding. We used the direct figures and took the total funding as well as the funding to the police for each state in each year. Figures were per capita.
 
